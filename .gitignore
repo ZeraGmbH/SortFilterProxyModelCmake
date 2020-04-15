@@ -1,3 +1,6 @@
+# things that might happen 
+build/
+
 # C++ objects and libs
 *.slo
 *.lo
