@@ -38,7 +38,7 @@ set_target_properties(SortFilterProxyModelCmake PROPERTIES SOVERSION ${PROJECT_V
 
 # install library
 install(TARGETS SortFilterProxyModelCmake
-    EXPORT SortFilterProxyModelCmakeEport
+    EXPORT SortFilterProxyModelCmakeExport
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     )
 
@@ -62,14 +62,6 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/SortFilterProxyModelCmakeConfig.cmake
     "${CMAKE_CURRENT_BINARY_DIR}/SortFilterProxyModelCmakeConfigVersion.cmake"
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/SortFilterProxyModelCmake
     )
-
-
-# install library
-install(TARGETS SortFilterProxyModelCmake
-    EXPORT SortFilterProxyModelCmakeExport
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    )
-
 
 # install targets cmake-files
 install(EXPORT SortFilterProxyModelCmakeExport
