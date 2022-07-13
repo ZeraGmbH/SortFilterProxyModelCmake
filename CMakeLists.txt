@@ -49,7 +49,7 @@ include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     SortFilterProxyModelCmakeConfigVersion.cmake
     VERSION ${PACKAGE_VERSION}
-    COMPATIBILITY SameMinorVersion
+    COMPATIBILITY SameMajorVersion
     )
 
 
